@@ -1,0 +1,92 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+body{
+    background: #262626 url(KUMAŞ.jpg\ -\ Kısayol.lnk);
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+
+}
+form{
+    background: rgb(109,4,25);
+    padding: 20px;
+    display: inline-flex;
+   flex-direction: column;
+   align-items: center;
+   border-radius: 8px;
+   box-shadow: rgb(121,9.9.0);
+   width: 300px;
+   height: 400px;
+}
+form h2{
+    margin-top: 20px;
+    font-size: 40px;
+    color:white;
+    margin-bottom: 30px;
+
+}
+
+form input{
+    border:none;
+    background: none;
+    text-align: center;
+    outline: none;
+    padding: 3px;
+    margin: 10px;
+    color: white;
+    height: 30px;
+    width: 70px;
+    border-radius: 30px;
+    transition: 0.2s ease-in;
+
+}
+
+form input[type="text"]{
+    width: 50%;
+    border: solid 2px rgb(248, 245, 245);
+}
+
+form input[type="text"]{
+    width: 80%;
+    border: solid 2px rgb(248, 245, 245);
+}
+form input[type="Password"]{
+    width: 80%;
+    border: solid 2px rgb (248, 245, 245);
+}
+
+form input[type="password"]{
+width: 80%;
+    border: solid 2px rgb(248, 245, 245);
+}
+form input[type="submit"]{
+    background: rgb(20, 20, 20);
+    box-sizing: border-box;
+    height: 50px;
+    width: 70px;
+    cursor: pointer;
+
+}
+form input[type="text"]:focus{
+    width: 80%;
+    border: solid 2px rgb(37, 33, 33);
+}
+
+form input[type="text"]:focus{width: 80%;
+    border: solid 2px rgb(37, 33, 33);}
+
+form input[type="Password"]:focus{width: 80%;
+    border: solid 2px rgb(37, 33, 33);}
+
+form input[type="Password"]:focus{width: 80%;
+    border: solid 2px rgb(37, 33, 33);}
+
+form input[type="submit"]:hover{
+    background: rgb(32, 32, 32);}
